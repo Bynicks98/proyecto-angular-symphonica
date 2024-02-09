@@ -4,8 +4,8 @@ import { ConfiguracionComponent } from './paginas/configuracion/configuracion.co
 import { InformacionComponent } from './paginas/informacion/informacion.component';
 
 export const routes: Routes = [
-    {path: '', component: InicioComponent},
-    {path: 'config', component: ConfiguracionComponent},
-    {path: 'info*:id', component: InformacionComponent},
-    {path: '', redirectTo: '', pathMatch:'full'}
+  { path: '', component: InicioComponent },
+  { path: 'config', component: ConfiguracionComponent },
+  { path: 'info*:id', component: InformacionComponent },
+  { path: '', redirectTo: '', pathMatch: 'full' },
 ];
